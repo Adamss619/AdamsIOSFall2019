@@ -3,29 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33AD0DD2231F39F30006B503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD0DD1231F39F30006B503 /* AppDelegate.swift */; };
-		33AD0DD4231F39F30006B503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD0DD3231F39F30006B503 /* ViewController.swift */; };
-		33AD0DD7231F39F30006B503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AD0DD5231F39F30006B503 /* Main.storyboard */; };
-		33AD0DD9231F39F30006B503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AD0DD8231F39F30006B503 /* Assets.xcassets */; };
-		33AD0DDC231F39F30006B503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AD0DDA231F39F30006B503 /* LaunchScreen.storyboard */; };
+		33B500372331AEBD0098088F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B500362331AEBD0098088F /* AppDelegate.swift */; };
+		33B500392331AEBD0098088F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B500382331AEBD0098088F /* ViewController.swift */; };
+		33B5003C2331AEBD0098088F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B5003A2331AEBD0098088F /* Main.storyboard */; };
+		33B5003E2331AEBE0098088F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B5003D2331AEBE0098088F /* Assets.xcassets */; };
+		33B500412331AEBE0098088F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B5003F2331AEBE0098088F /* LaunchScreen.storyboard */; };
+		33B500492331D6F00098088F /* UserLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B500482331D6F00098088F /* UserLogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33AD0DCE231F39F30006B503 /* Mobile2019InClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile2019InClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33AD0DD1231F39F30006B503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33AD0DD3231F39F30006B503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33AD0DD6231F39F30006B503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33AD0DD8231F39F30006B503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33AD0DDB231F39F30006B503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		33AD0DDD231F39F30006B503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B500332331AEBC0098088F /* FreedomWithFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomWithFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B500362331AEBD0098088F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33B500382331AEBD0098088F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33B5003B2331AEBD0098088F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B5003D2331AEBE0098088F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B500402331AEBE0098088F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33B500422331AEBE0098088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B500482331D6F00098088F /* UserLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33AD0DCB231F39F30006B503 /* Frameworks */ = {
+		33B500302331AEBC0098088F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,127 +37,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33AD0DC5231F39F30006B503 = {
+		33B5002A2331AEBC0098088F = {
 			isa = PBXGroup;
 			children = (
-				33AD0DD0231F39F30006B503 /* Mobile2019InClass */,
-				33AD0DCF231F39F30006B503 /* Products */,
+				33B500352331AEBD0098088F /* FreedomWithFinance */,
+				33B500342331AEBC0098088F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33AD0DCF231F39F30006B503 /* Products */ = {
+		33B500342331AEBC0098088F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33AD0DCE231F39F30006B503 /* Mobile2019InClass.app */,
+				33B500332331AEBC0098088F /* FreedomWithFinance.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33AD0DD0231F39F30006B503 /* Mobile2019InClass */ = {
+		33B500352331AEBD0098088F /* FreedomWithFinance */ = {
 			isa = PBXGroup;
 			children = (
-				33AD0DD1231F39F30006B503 /* AppDelegate.swift */,
-				33AD0DD3231F39F30006B503 /* ViewController.swift */,
-				33AD0DD5231F39F30006B503 /* Main.storyboard */,
-				33AD0DD8231F39F30006B503 /* Assets.xcassets */,
-				33AD0DDA231F39F30006B503 /* LaunchScreen.storyboard */,
-				33AD0DDD231F39F30006B503 /* Info.plist */,
+				33B500362331AEBD0098088F /* AppDelegate.swift */,
+				33B500382331AEBD0098088F /* ViewController.swift */,
+				33B5003A2331AEBD0098088F /* Main.storyboard */,
+				33B500482331D6F00098088F /* UserLogController.swift */,
+				33B5003D2331AEBE0098088F /* Assets.xcassets */,
+				33B5003F2331AEBE0098088F /* LaunchScreen.storyboard */,
+				33B500422331AEBE0098088F /* Info.plist */,
 			);
-			path = Mobile2019InClass;
+			path = FreedomWithFinance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33AD0DCD231F39F30006B503 /* Mobile2019InClass */ = {
+		33B500322331AEBC0098088F /* FreedomWithFinance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33AD0DE0231F39F30006B503 /* Build configuration list for PBXNativeTarget "Mobile2019InClass" */;
+			buildConfigurationList = 33B500452331AEBE0098088F /* Build configuration list for PBXNativeTarget "FreedomWithFinance" */;
 			buildPhases = (
-				33AD0DCA231F39F30006B503 /* Sources */,
-				33AD0DCB231F39F30006B503 /* Frameworks */,
-				33AD0DCC231F39F30006B503 /* Resources */,
+				33B5002F2331AEBC0098088F /* Sources */,
+				33B500302331AEBC0098088F /* Frameworks */,
+				33B500312331AEBC0098088F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mobile2019InClass;
-			productName = Mobile2019InClass;
-			productReference = 33AD0DCE231F39F30006B503 /* Mobile2019InClass.app */;
+			name = FreedomWithFinance;
+			productName = FreedomWithFinance;
+			productReference = 33B500332331AEBC0098088F /* FreedomWithFinance.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33AD0DC6231F39F30006B503 /* Project object */ = {
+		33B5002B2331AEBC0098088F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Spencer Adams";
 				TargetAttributes = {
-					33AD0DCD231F39F30006B503 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					33B500322331AEBC0098088F = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 33AD0DC9231F39F30006B503 /* Build configuration list for PBXProject "Mobile2019InClass" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 33B5002E2331AEBC0098088F /* Build configuration list for PBXProject "FreedomWithFinance" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 33AD0DC5231F39F30006B503;
-			productRefGroup = 33AD0DCF231F39F30006B503 /* Products */;
+			mainGroup = 33B5002A2331AEBC0098088F;
+			productRefGroup = 33B500342331AEBC0098088F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33AD0DCD231F39F30006B503 /* Mobile2019InClass */,
+				33B500322331AEBC0098088F /* FreedomWithFinance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33AD0DCC231F39F30006B503 /* Resources */ = {
+		33B500312331AEBC0098088F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AD0DDC231F39F30006B503 /* LaunchScreen.storyboard in Resources */,
-				33AD0DD9231F39F30006B503 /* Assets.xcassets in Resources */,
-				33AD0DD7231F39F30006B503 /* Main.storyboard in Resources */,
+				33B500412331AEBE0098088F /* LaunchScreen.storyboard in Resources */,
+				33B5003E2331AEBE0098088F /* Assets.xcassets in Resources */,
+				33B5003C2331AEBD0098088F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33AD0DCA231F39F30006B503 /* Sources */ = {
+		33B5002F2331AEBC0098088F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AD0DD4231F39F30006B503 /* ViewController.swift in Sources */,
-				33AD0DD2231F39F30006B503 /* AppDelegate.swift in Sources */,
+				33B500392331AEBD0098088F /* ViewController.swift in Sources */,
+				33B500492331D6F00098088F /* UserLogController.swift in Sources */,
+				33B500372331AEBD0098088F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33AD0DD5231F39F30006B503 /* Main.storyboard */ = {
+		33B5003A2331AEBD0098088F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33AD0DD6231F39F30006B503 /* Base */,
+				33B5003B2331AEBD0098088F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		33AD0DDA231F39F30006B503 /* LaunchScreen.storyboard */ = {
+		33B5003F2331AEBE0098088F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33AD0DDB231F39F30006B503 /* Base */,
+				33B500402331AEBE0098088F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		33AD0DDE231F39F30006B503 /* Debug */ = {
+		33B500432331AEBE0098088F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,10 +176,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +189,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,8 +217,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -220,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		33AD0DDF231F39F30006B503 /* Release */ = {
+		33B500442331AEBE0098088F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,10 +237,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +250,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,38 +272,48 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		33AD0DE1231F39F30006B503 /* Debug */ = {
+		33B500462331AEBE0098088F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Mobile2019InClass/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FullBlown.Mobile2019InClass;
+				INFOPLIST_FILE = FreedomWithFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calculator.FreedomWithFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		33AD0DE2231F39F30006B503 /* Release */ = {
+		33B500472331AEBE0098088F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Mobile2019InClass/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FullBlown.Mobile2019InClass;
+				INFOPLIST_FILE = FreedomWithFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Calculator.FreedomWithFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -301,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33AD0DC9231F39F30006B503 /* Build configuration list for PBXProject "Mobile2019InClass" */ = {
+		33B5002E2331AEBC0098088F /* Build configuration list for PBXProject "FreedomWithFinance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33AD0DDE231F39F30006B503 /* Debug */,
-				33AD0DDF231F39F30006B503 /* Release */,
+				33B500432331AEBE0098088F /* Debug */,
+				33B500442331AEBE0098088F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33AD0DE0231F39F30006B503 /* Build configuration list for PBXNativeTarget "Mobile2019InClass" */ = {
+		33B500452331AEBE0098088F /* Build configuration list for PBXNativeTarget "FreedomWithFinance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33AD0DE1231F39F30006B503 /* Debug */,
-				33AD0DE2231F39F30006B503 /* Release */,
+				33B500462331AEBE0098088F /* Debug */,
+				33B500472331AEBE0098088F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33AD0DC6231F39F30006B503 /* Project object */;
+	rootObject = 33B5002B2331AEBC0098088F /* Project object */;
 }
