@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3360EAB823977DAB00FED3D1 /* LogoMakr_0jULDt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3360EAB723977DAB00FED3D1 /* LogoMakr_0jULDt.png */; };
+		33894BCE23A5BA0D00B70071 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33894BCD23A5BA0D00B70071 /* ViewControllerProfile.swift */; };
 		339C674E2364DCED004D159D /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339C674D2364DCED004D159D /* page2.swift */; };
 		339C67512364E451004D159D /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 339C674F2364E451004D159D /* Notes.xcdatamodeld */; };
 		339C675A2364EE09004D159D /* NoteItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339C67582364EE09004D159D /* NoteItem+CoreDataClass.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3360EAB723977DAB00FED3D1 /* LogoMakr_0jULDt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoMakr_0jULDt.png; sourceTree = "<group>"; };
+		33894BCD23A5BA0D00B70071 /* ViewControllerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerProfile.swift; path = ../../../../ViewControllerProfile.swift; sourceTree = "<group>"; };
 		339C674D2364DCED004D159D /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
 		339C67502364E451004D159D /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
 		339C67582364EE09004D159D /* NoteItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				33B500362331AEBD0098088F /* AppDelegate.swift */,
 				33B500382331AEBD0098088F /* ViewController.swift */,
 				339C675E2364FF33004D159D /* TableViewController.swift */,
+				33894BCD23A5BA0D00B70071 /* ViewControllerProfile.swift */,
 				339C674D2364DCED004D159D /* page2.swift */,
 				33B5003A2331AEBD0098088F /* Main.storyboard */,
 				339C674F2364E451004D159D /* Notes.xcdatamodeld */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33894BCE23A5BA0D00B70071 /* ViewControllerProfile.swift in Sources */,
 				33B500392331AEBD0098088F /* ViewController.swift in Sources */,
 				339C67512364E451004D159D /* Notes.xcdatamodeld in Sources */,
 				339C675A2364EE09004D159D /* NoteItem+CoreDataClass.swift in Sources */,
