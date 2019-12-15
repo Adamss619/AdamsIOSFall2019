@@ -12,8 +12,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label1: UILabel!
     
-    @IBOutlet weak var number1: UITextField!
-    @IBOutlet weak var number2: UITextField!
+    @IBOutlet weak var number1: UITextField! //starting amount
+    @IBOutlet weak var number2: UITextField! //years
+    @IBOutlet var interest: UITextField!
+    @IBOutlet var contribution: UITextField!
     @IBOutlet weak var calculate: UIButton!
    
     @IBOutlet weak var CalculatedLabel: UILabel!
@@ -30,31 +32,31 @@ class ViewController: UIViewController {
 
 
     @IBAction func calculateNumber(_ sender: Any) {
-        let number1field = number1.text
-        let number2field = number2.text
         
+        let starting = number1.text
+        let years = number2.text
+        let interest1 = interest.text
+        let contribution1 = contribution.text
         
-        let intField1 = Int(number1field!) ?? 0
-        let intField2 = Int(number2field!) ?? 0
+        var startingInt = Double(starting!) ?? 0
+        let yearsInt = Int(years!) ?? 0
+        let interestInt = Double(interest1!) ?? 0
+        let contributionInt = Double(contribution1!) ?? 0
         
-        CalculatedLabel.text = String(intField1 + intField2)
-        let outputString = String(intField1 + intField2)
-        let outputString1 = String(intField1)
-        let outputString2 = String(intField2)
+        var count = 0.0;
+        //$10,000 [(1 + 0.05)3 – 1]
+        //principle [(1 + interest)^years -1]
+        var i = 0
+        while(i<yearsInt) {
+            startingInt+=contributionInt
+            var inside = pow((Double(1 + interestInt)),1)-1
+            count += startingInt * inside
+            i+=1;
+        }
         
-        
-        var logArray = UserLogController.loggingList()
-        logArray.append(outputString)
-        logArray.append(outputString1)
-        logArray.append(outputString2)
-        
-        print(UserLogController.loggingList())
-        UserLogController.logNewEvent(newEventToLog: outputString)
-        UserLogController.logNewEvent(newEventToLog: outputString1)
-        UserLogController.logNewEvent(newEventToLog: outputString2)
-        
-        
-        
+        let y = Double(round(1000*(count+startingInt))/1000);
+        CalculatedLabel.text = "$"+String(y);
+
     }
 }
 
