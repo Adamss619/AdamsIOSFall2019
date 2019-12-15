@@ -18,6 +18,7 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.backgroundColor = UIColor.black;
         loadItem()
 
         // Uncomment the following line to preserve selection between presentations
@@ -33,7 +34,12 @@ class TableViewController: UITableViewController {
 //        // #warning Incomplete implementation, return the number of sections
 //        return 0
 //    }
-
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = UIColor.black;
+        cell.textLabel?.textColor = UIColor.white;
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCell(withIdentifier: "Note", for: indexPath)
         let note = Notes[indexPath.row]
@@ -49,10 +55,9 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: [indexPath.row], animated: true)
-
         var textField = UITextField()
-        let alertEdit = UIAlertController(title: "Edit Note", message: "", preferredStyle: .alert)
-        let actionEdit = UIAlertAction(title: "Finish Note", style: .default) { (actionEdit) in
+        let alertEdit = UIAlertController(title: "Edit Goal", message: "", preferredStyle: .alert)
+        let actionEdit = UIAlertAction(title: "Finish Goal", style: .default) { (actionEdit) in
             
             self.Notes[indexPath.row].title = textField.text!
             self.saveNote()
@@ -89,20 +94,18 @@ class TableViewController: UITableViewController {
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         var textField = UITextField()
         //var labelField = UILabel()
-        let alert = UIAlertController(title: "Add New Note", message: "", preferredStyle: .alert)
-        let action = UIAlertAction(title: "Add Note", style: .default) { (action) in
-            
+        let alert = UIAlertController(title: "Add New Goal", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Add Goal", style: .default) { (action) in
             let newNote = NoteItem(context: self.context)
             newNote.title = textField.text!
             //newNote.title = labelField.text!
             self.Notes.append(newNote)
             self.saveNote()
         }
-        
         alert.addAction(action)
         alert.addTextField { (field) in
             textField = field
-            textField.placeholder = "Add New Note"
+            textField.placeholder = "Add New Goal"
         }
         present(alert, animated: true, completion: nil)
     }
